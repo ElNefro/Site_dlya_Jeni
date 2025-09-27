@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    align-content: center;
+    justify-items: center;
+    background-color: aqua;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+aside {
+    background-color: aqua;
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto 30% 50%;
+    grid-auto-flow: column;
+}
+
+.nav_btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+#today_list {
+    border-radius: 20px;
+    margin: 10px;
+    height: 600px;
+    gap: 10px;
+    grid-row: span 3;
+}
+
+#home_work_next_day {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#ochives {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#progress_bar {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
